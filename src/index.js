@@ -3,6 +3,7 @@ const PORT = process.env.PORT || 80;
 let app = express()
 
 app.get("/",(req,res) =>{
+    console.log("This API is called");
     res.send("Hello Parth Zala")
 })
 
